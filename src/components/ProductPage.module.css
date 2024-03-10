@@ -1,0 +1,142 @@
+.container {
+  width: 100%;
+  /* max-width: 1200px; Maximum width to ensure content doesn't stretch too far on large screens */
+  overflow: auto;
+  margin: auto;
+  font-family: 'Arial, sans-serif';
+  background-color: #fff;
+  min-height: 100%; /* Ensures the container takes at least the full height of the viewport */
+  display: flex;
+  flex-direction: column;
+}
+
+.headerContainer {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  width: 200px; /* Adjust width as needed */
+}
+
+.productContainer {
+  
+  display: flex;
+  background-color: #f2f2f2;
+  gap: 10px;
+  padding: 40px; /* Adjusted padding to ensure it doesn't touch the borders */
+  align-items: stretch;
+}
+
+.productDetail {
+  width: 30%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  height:950px;
+  
+}
+
+.productImage {
+  margin: right;
+  width: 80%; /* Adjusted width according to the provided CSS */
+  display: block;
+}
+
+.productTitle {
+  color: #333;
+  font-size: 1.5em;
+  margin: 0;
+  text-align: center;
+}
+
+.productSubtitle {
+  color: #666;
+  font-size: 1em;
+  text-align: center;
+}
+
+.tagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.tag {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+  font-size: .75em; /* 75% of the parent element's font size */
+  padding: 5px 15px;
+  text-align: center;
+  margin: 0 5px 5px 0; /* Added margin for spacing between tags */
+  display: inline-block; /* Ensures that the padding and text-align are applied correctly */
+}
+
+.salesSection {
+  width: 70%;
+}
+
+.salesGraph, .salesTable {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px; /* Only for the sales graph, but it can be overridden */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.th {
+  background-color: #fff;
+  border-bottom: 2px solid #eaeaea;
+  color: #333;
+  cursor: pointer;
+  font-size: .75rem;
+  font-weight: 400;
+  padding: 8px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.td {
+  padding: 8px;
+  text-align: center;
+  font-size: 0.75rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tr {
+  background-color: #fff;
+}
+
+.tableWrapper {
+  max-height: 400px; /* Adjust based on your needs */
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableWrapper {
+  max-height: 400px; /* Adjust based on your needs */
+  overflow-y: auto;
+  margin-bottom: 20px;
+}

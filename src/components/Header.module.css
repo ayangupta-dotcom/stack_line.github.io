@@ -1,0 +1,11 @@
+.header {
+	display: flex;
+	align-items: left;
+	width: 750%;
+	height: 100px;
+	background-color: #052849;
+}
+.logo {
+	height: 100%;
+	filter: brightness(0) invert(1);
+}
